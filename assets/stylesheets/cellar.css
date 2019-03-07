@@ -1,0 +1,17 @@
+/*? подвал ?*/
+
+.footer .copyright {
+  background-color: rgba(34, 34, 34, 1);
+  width: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+  bottom: 0px;
+}
+
+.footer .copyright p {
+  font-size: 8.65655pt;
+  color: rgba(69, 69, 69, 255);
+  padding-left: 39px;
+}
