@@ -1,0 +1,28 @@
+/*! hexagon layer start !*/
+
+.hexagon {
+  width: 180px;
+  height: 209px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  background-position: 50%;
+  visibility: hidden;
+}
+
+.hexlayer1 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+
+.hexlayer2 {
+  width: 100%;
+  height: 100%;
+  background: rgba(209, 8, 8, 0.8);
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+}
+
+/*! hexagon layer end !*/

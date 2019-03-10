@@ -1,21 +1,22 @@
-/*? здесь часть info ?*/
-
 .info {
-  width: 980px;
-  height: 340px;
+  height: 315px;
   background-color: rgba(46, 179, 152, 1);
+  display: block;
+  padding: 13px 99px;
+}
+
+.wrap {
   display: flex;
-  flex-direction: row;
-  padding: 0px 20px;
+}
+
+.smith {
+  padding: 51px 0;
 }
 
 /*! foto start !*/
 
 .smithfoto {
-  position: relative;
-  float: left;
-  top: 68px;
-  right: -100px;
+  margin: 55px 20px;
 }
 
 .smithfoto img {
@@ -30,22 +31,9 @@
   color: rgba(215, 252, 245, 0.8);
 }
 
-/*? smith ?*/
-
-.naming {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .naming h3 {
   font-size: 22pt;
   font-weight: 100;
-  letter-spacing: 0.01px;
-  position: relative;
-  top: 32px;
-  right: 68px;
 }
 
 .smith .subtitle {
@@ -53,36 +41,32 @@
   font-size: 13pt;
   font-weight: 100;
   word-spacing: 1px;
-  position: relative;
-  bottom: 16px;
-  right: 47px;
+  padding-top: 5px;
 }
 
 .lacin {
-  width: 581px;
   font-size: 8.2pt;
   line-height: 21px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.26px;
   word-spacing: 0.3px;
   text-align: justify;
-  position: relative;
-  left: 120px;
-  bottom: 31px;
-  width: 585px;
-  height: 76px;
+  padding-top: 14px;
 }
 
 /*? followbar ?*/
 
 .followbar_wrapper {
+  width: 580px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 37px;
+  opacity: .7;
+  filter: brightness(115%);
+}
+
+ul.social_list {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  position: relative;
-  left: 404px;
-  bottom: 12px;
-  opacity: .4;
-  filter: invert(70%);
 }
 
 .social_list a {

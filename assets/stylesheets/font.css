@@ -1,40 +1,47 @@
+/*@import url('https://fonts.googleapis.com/css?family=Maven+Pro');*/
+
 @font-face {
   font-family: 'Lato Regular';
-  src: url('/assets/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  src: url('../fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Lato Bold';
-  src: url('/assets/fonts/Lato/Lato-Bold.ttf') format('truetype');
+  src: url('../fonts/Lato/Lato-Bold.ttf');
 }
 
 @font-face {
   font-family: 'Lato Black';
-  src: url('/assets/fonts/Lato/Lato-Black.ttf') format('truetype');
+  src: url('../fonts/Lato/Lato-Black.ttf');
 }
 
 @font-face {
   font-family: 'Maven Pro';
-  src: url('/assets/fonts/Maven_Pro/MavenPro-Regular.ttf') format('truetype');
+  src: url('../fonts/Maven_Pro/MavenPro-Regular.ttf') format('truetype');
 }
 
 /*? fonts ?*/
 
 .navigation a,
 .hidden,
-.submission {
-  font-family: 'Lato Regular', sans-serif;
-}
-
 ::placeholder,
-.lacin {
+.lacin,
+.contacts {
   font-family: 'Lato Regular', sans-serif;
 }
 
-.naming h3, 
-.subtitle,
+.bold {
+  font-family: 'Lato Black';
+}
+
+.submission {
+  font-family: 'Lato Bold', sans-serif;
+}
+
+.smith h3, 
+.smith .subtitle,
 .getintouch h3,
 .getintouch p,
-p.copyright {
+.copyright p {
   font-family: 'Maven Pro', sans-serif;
 }

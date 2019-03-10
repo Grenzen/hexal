@@ -1,13 +1,10 @@
-/*? подвал ?*/
-
 .footer .copyright {
   background-color: rgba(34, 34, 34, 1);
   width: 1020px;
+  height: 43px;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  position: relative;
-  bottom: 0px;
+  align-items: center;
 }
 
 .footer .copyright p {

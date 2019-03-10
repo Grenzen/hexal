@@ -3,24 +3,16 @@
 @import "../stylesheets/header.css";
 @import "../stylesheets/hexacomb.css";
 @import "../stylesheets/info.css";
-@import "../stylesheets/form.css";
+@import "../stylesheets/footer.css";
 @import "../stylesheets/cellar.css";
 @import "../stylesheets/default.css";
+@import "../stylesheets/border.css";
+@import "../stylesheets/hexagon.css";
 
 body {
+  margin: 0;
   width: 1020px;
   min-width: 1020px;
   overflow: scroll;
-  margin: 0;
   display: block;
-}
-
-/** здесь часть footer **/
-
-.footer {
-  background-color: rgba(50, 50, 50, 1);
-  width: 1020px;
-  height: 583px;
-  display: inline-block;
-  padding-top: 25px;
 }

@@ -1,0 +1,92 @@
+/** border width **/
+
+.navigation::before,
+.navigation::after {
+  position: relative;
+  content: '';
+  height: 1px;
+  background-color: rgba(50, 50, 50, 0.2);
+  z-index: 13;
+}
+
+/*? horisontal border at top ?*/
+
+.navigation::before,
+.navigation::after {
+  width: 410px;
+  min-width: 410px;
+  top: 74px;
+  left: 118px;
+}
+
+.navigation::after {
+  left: -118px;
+}
+
+/*? bottom solid border at hexacomb ?*/
+
+.hexacomb {
+  border-bottom: 1px solid rgba(50, 50, 50, 0.2);
+}
+
+
+/*? top and bottom solid border at footer ?*/
+
+.footerform {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+/** border height **/
+
+.queenbeehive1::before,
+.queenbeehive1::after,
+.queenbeehive3::before,
+.queenbeehive3::after {
+  position: relative;
+  content: '';
+  width: 1px;
+  background-color: rgba(50, 50, 50, 0.2);
+  z-index: 13;
+}
+
+/*? top side at hexacomb ?*/
+
+.queenbeehive1::before,
+.queenbeehive1::after {
+  height: 104px;
+  top: 62px;
+  right: 10px;
+}
+
+.queenbeehive1::after {
+  left: 10px;
+}
+
+/*? bottom side at hexacomb ?*/
+
+.queenbeehive3::before,
+.queenbeehive3::after {
+  height: 104px;
+  top: 52px;
+  right: 10px;
+
+}
+
+.queenbeehive3::after {
+  left: 10px;
+}
+
+
+/* left anr right side at info */
+
+.wrap {
+  height: 100%;
+  border-left: 1px solid rgba(50, 50, 50, 0.2);
+  border-right: 1px solid rgba(50, 50, 50, 0.2);
+}
+
+
+
