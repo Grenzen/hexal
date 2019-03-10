@@ -20,6 +20,14 @@
   margin: 10px 10px;
 }
 
+.firstcomb li:hover,
+.secondcomb li:hover,
+.thirdcomb li:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .fourimage {
   position: relative;
   right: 20px;
